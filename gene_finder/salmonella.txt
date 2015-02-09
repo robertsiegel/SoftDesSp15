@@ -1,0 +1,3 @@
+The first protein sequence codes for partial surface presentation of antigens.
+The second protein sequence codes for antigen presentation protein SPaN.
+
