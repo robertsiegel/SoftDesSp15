@@ -1,3 +1,4 @@
-The first protein sequence codes for partial surface presentation of antigens.
-The second protein sequence codes for antigen presentation protein SPaN.
-
+The first and second protein sequences codes for partial surface presentation of antigens.
+The third protein sequence codes for antigen presentation.
+The fourth protein codes for type III secretion system of proteins.
+The fifth protein is a surface presentation of antigens protein.

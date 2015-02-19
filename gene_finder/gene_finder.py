@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Feb  2 11:24:42 2014
-
 @author: Robbie Siegel
-
 """
 
 # you may find it useful to import these variables (although you are not required to use them)
@@ -21,7 +19,6 @@ def shuffle_string(s):
 
 def get_complement(nucleotide):
 	""" Returns the complementary nucleotide
-
 		nucleotide: a nucleotide (A, C, G, or T) represented as a string
 		returns: the complementary nucleotide
 	>>> get_complement('A')
@@ -107,7 +104,6 @@ def find_all_ORFs(dna):
 		
 		dna: a DNA sequence
 		returns: a list of non-nested ORFs
-
 	>>> find_all_ORFs("ATGCATGAATGTAG")
 	['ATGCATGAATGTAG', 'ATGAATGTAG', 'ATG']
 	"""
@@ -169,7 +165,6 @@ def coding_strand_to_AA(dna):
 		dna: a DNA sequence represented as a string
 		returns: a string containing the sequence of amino acids encoded by the
 				 the input DNA fragment
-
 		>>> coding_strand_to_AA("ATGCGA")
 		'MR'
 		>>> coding_strand_to_AA("ATGCCCGCTTT")
