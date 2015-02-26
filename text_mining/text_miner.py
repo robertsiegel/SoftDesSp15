@@ -66,9 +66,9 @@ def plot_profanity(dict, label):
     """
     profanity = analyze_profanity(dict)
     curses = len(profanity[0]) #finds the number of different curse words used
-    ratio = profanity[1] #ratio of 
+    ratio = profanity[1] #ratio of words considered profanity to total words
 
-    plt.plot([curses], [ratio])
+    plt.plot([curses], [ratio]) #plots curses vs. ratio
     plt.axis([0, 25, 0, .0025])
     plt.annotate(label, (curses, ratio))
 
@@ -81,6 +81,15 @@ d_huckleberry = create_dictionary('huckleberry_finn.txt')
 d_scarlet = create_dictionary('scarlet_letter.txt')
 d_divine = create_dictionary('divine_comedy.txt')
 
+#prints a list of each profane word used in each of six books
+print analyze_profanity(d_moby)[0]
+print analyze_profanity(d_wizard)[0]
+print analyze_profanity(d_beowulf)[0]
+print analyze_profanity(d_scarlet)[0]
+print analyze_profanity(d_huckleberry)[0]
+print analyze_profanity(d_divine)[0]
+
+
 #Calls the plot_profanity function for each dictionary we want to analyze and then plots them together
 plot_profanity(d_moby, 'Moby Dick')
 plot_profanity(d_wizard, 'The Wizard of Oz')
@@ -88,6 +97,7 @@ plot_profanity(d_beowulf,'Beowulf')
 plot_profanity(d_scarlet, 'The Scarlet Letter')
 plot_profanity(d_huckleberry, 'Huckleberry Finn')
 plot_profanity(d_divine, 'The Divine Comedy')
+
 
 plt.title('Profanity in Different Novels')
 plt.ylabel('Ratio of Curse Words to Total Words')
