@@ -1,0 +1,10 @@
+﻿Robbie Siegel
+Machine Learning Toolbox: Questions
+
+1. The accuracy increases as the percentage of data used for training increases, resulting in an increasing curve. The graph is concave down because as the percentage of data used increases, the rate at which the accuracy can increase lowers.
+
+2. The part of the curve with a higher percentage of data used in training seems noisier than the rest of the graph. This is likely because when a higher percentage of data is used, the results are all relatively close to 100% accuracy. So when one result is unusually accurate or innacurate, it seems very noisy compared to the smoother points. 
+
+3. I tested values of test_trials up to 50, which produced a relatively smooth curve. Higher values would likely result in even smoother curves, but 50 trials was satisfactory.
+
+4. Higher values of C seem to result in more accurate results.
