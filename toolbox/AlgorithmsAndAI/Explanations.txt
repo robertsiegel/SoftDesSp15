@@ -9,3 +9,4 @@ Part I: Different Scores
 Part II: Get Coding
 1. Paul is forced to move diagonally when the lava does not permit him to move horizontally or vertically. Once he reaches a point where he can move vertically and horizontally rather than diagonally, which costs more, he begins to do that.
 2. When Paul has no way to maneuver around the lava, jumping over it is the most cost effective option because there is no other way for him to reach the cake.
+3. Paul chooses the path on which he only has to go through one swamp, even though it is a more circuitous route, because this proves to be more cost effective.
