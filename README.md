@@ -1,2 +1,2 @@
 # SoftDesSp15
-The base repository for Olin's Software Design 2015 course.
+My repository for the Spring '15 Software Design course.
