@@ -1,0 +1,11 @@
+Robbie Siegel
+Algorithms and AI Toolbox
+
+Part I: Different Scores
+1. The g score represents the minimum number of steps Paul will have taken to reach the location.
+2. The h score represents the minimum number of steps remaining in Paul's path to the cake.
+3. The f score represents the minimum score that Paul can finish with if he goes to a specific spot.
+
+Part II: Get Coding
+1. Paul is forced to move diagonally when the lava does not permit him to move horizontally or vertically. Once he reaches a point where he can move vertically and horizontally rather than diagonally, which costs more, he begins to do that.
+2. When Paul has no way to maneuver around the lava, jumping over it is the most cost effective option because there is no other way for him to reach the cake.

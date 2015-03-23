@@ -167,8 +167,8 @@ class Paul(Actor):
     def get_open_adj_coords(self, coords):
         """returns list of valid coords that are adjacent to the argument, open, and not in the closed list."""
         #modify directions and costs as needed
-        directions = [(1,0),(0,1),(-1,0),(0,-1)]
-        costs = [1,1,1,1]
+        directions = [(1,0),(0,1),(-1,0),(0,-1),(1,1),(1,-1),(-1,1),(-1,-1),(2,0),(0,2),(-2,0),(0,-2)]
+        costs = [1,1,1,1,3,3,3,3,8,8,8,8]
         adj_coords = map(lambda d: self.world._add_coords(coords,d), directions)
         for i, coord in enumerate(adj_coords):
             costs[i] += self.world.get_terrain_cost(coord)
